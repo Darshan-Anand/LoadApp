@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.motion.widget.MotionLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutDescription="@xml/content_detail_scene"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".DetailActivity"
+        tools:showIn="@layout/activity_detail">
+
+        <TextView
+            android:id="@+id/filename_title_tv"
+            style="@style/filename_status_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/file_name" />
+
+        <TextView
+            android:id="@+id/filename_body_tv"
+            style="@style/filename_status_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/glide" />
+
+        <TextView
+            android:id="@+id/status_title_tv"
+            style="@style/filename_status_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/status" />
+
+        <TextView
+            android:id="@+id/status_body_tv"
+            style="@style/filename_status_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            tools:text="@string/success" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/ok_but"
+            style="@style/OkButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="56dp"
+            android:text="@string/ok" />
+
+
+    </androidx.constraintlayout.motion.widget.MotionLayout>
+</layout>

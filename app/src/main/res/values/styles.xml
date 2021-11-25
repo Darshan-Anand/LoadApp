@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="OkButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/colorAccent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="filename_status_title" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="filename_status_body" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:paddingStart">32dp</item>
+        <item name="android:paddingEnd">32dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+    </style>
+
+    <style name="RadioButtonStyle" >
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:maxLines">2</item>
+        <item name="textAppearanceHeadline1">@style/TextAppearance.MaterialComponents.Headline1</item>
+    </style>
+
+</resources>

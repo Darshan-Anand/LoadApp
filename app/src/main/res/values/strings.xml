@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ND940C3-Project</string>
+    <string name="app_description">Download files from Internet</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="notification_title">Udacity: Android Kotlin Nanodegree </string>
+    <string name="notification_description">The Project 3 repository is downloaded</string>
+    <string name="notification_button">See changes</string>
+
+    <string name="button_name">Click me</string>
+    <string name="button_download">Download</string>
+    <string name="button_loading">We are loading </string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="download_image">download image</string>
+    <string name="glide">Glide - Image Loading Library by BumpTech</string>
+    <string name="loadapp">LoadApp - Current repository by Udacity </string>
+    <string name="retrofit">Retrofit - Type-safe HTTP client for Android and Java by Square, Inc</string>
+    <string name="ok">OK</string>
+    <string name="file_name">File name:</string>
+    <string name="status">Status:</string>
+    <string name="fail">Fail</string>
+    <string name="success">Success</string>
+    <string name="choose_file">Please select the file to download</string>
+    <string name="glide_library_description">Completed downloading glide library</string>
+    <string name="loadapp_project_description">Completed downloading LoadApp Udacity project</string>
+    <string name="retrofit_library_description">Completed downloading retrofit library</string>
+    <string name="channel_name">Downloads</string>
+    <string name="channel_description">All notification related to downloads shown on this channel</string>
+    <string name="channel_id">channel_downloads</string>
+    <string name="notifi_action_but_name">Check the status</string>
+
+</resources>
